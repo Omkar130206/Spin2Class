@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spin2Class - Bike Rental Service for Students</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .logo-gradient {
+            background-image: linear-gradient(to right, #00C6FF, #0072FF); /* Example cool blue/cyan gradient */
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800 bg-white">
+
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <div class="container mx-auto flex justify-between items-center p-4">
+            <a href="#" class="flex items-center space-x-2">
+                <svg class="w-10 h-10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="logo-gradient" d="M16 11H4a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2zM12 11V7M12 7h6a2 2 0 012 2v2a2 2 0 01-2 2h-6M6 19a2 2 0 100-4 2 2 0 000 4zM16 19a2 2 0 100-4 2 2 0 000 4z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="text-3xl font-extrabold logo-gradient">Spin2Class</span>
+            </a>
+            
+            <nav class="hidden md:flex space-x-6 items-center">
+                <a href="#how-it-works" class="text-gray-600 hover:text-blue-600 transition duration-200">How It Works</a>
+                <a href="#pricing" class="text-gray-600 hover:text-blue-600 transition duration-200">Pricing Plans</a>
+                <a href="#locations" class="text-gray-600 hover:text-blue-600 transition duration-200">Locations</a>
+                <a href="#" class="text-gray-600 hover:text-blue-600 transition duration-200">Login / Sign Up</a>
+                <a href="#" class="px-5 py-2 text-white font-semibold bg-blue-600 rounded-full hover:bg-blue-700 transition duration-200 shadow-lg">Rent Now</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="bg-blue-50 py-20 md:py-32">
+        <div class="container mx-auto px-4 md:flex items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight">
+                    Ditch the Dash. <span class="logo-gradient">Spin2Class.</span>
+                </h1>
+                <p class="mt-4 text-xl text-gray-600 max-w-lg">
+                    Your fast, affordable, and flexible way to conquer campus.
+                </p>
+                <div class="mt-8 space-x-4">
+                    <a href="#" class="px-8 py-3 text-lg font-bold text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition duration-300 shadow-xl">
+                        Find a Bike Near You
+                    </a>
+                    <a href="#pricing" class="px-6 py-3 text-lg font-semibold text-blue-600 border border-blue-600 rounded-lg hover:bg-blue-50 transition duration-300">
+                        See Rental Plans
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2">
+                <img src="https://via.placeholder.com/600x400/D0EFFF/0072FF?text=Vibrant+Campus+Riding+Photo" alt="Students riding Spin2Class bikes on campus" class="rounded-xl shadow-2xl">
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20" id="value-prop">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-12">Why Every Minute Counts (and Why Spin2Class Wins)</h2>
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300 border-t-4 border-blue-500">
+                    <div class="text-5xl mb-4 text-blue-600">⏱</div>
+                    <h3 class="text-2xl font-semibold mb-3">Save Time</h3>
+                    <p class="text-gray-600">Stop sprinting to lecture! Get from your dorm to class in minutes, not miles. No more missed deadlines or sweaty arrivals.</p>
+                </div>
+                <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300 border-t-4 border-blue-500">
+                    <div class="text-5xl mb-4 text-blue-600">💸</div>
+                    <h3 class="text-2xl font-semibold mb-3">Save Cash</h3>
+                    <p class="text-gray-600">Forget expensive campus parking passes, gas, or rideshares. Our student-friendly plans cost less than your weekly coffee budget.</p>
+                </div>
+                <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300 border-t-4 border-blue-500">
+                    <div class="text-5xl mb-4 text-blue-600">🔒</div>
+                    <h3 class="text-2xl font-semibold mb-3">Stay Secure</h3>
+                    <p class="text-gray-600">Our durable, well-maintained fleet comes with built-in smart locks. Rent and return right at our campus hubs, day or night.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="container mx-auto my-12 border-gray-200">
+
+    <section class="py-20" id="how-it-works">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-16">Ready to Ride? 3 Easy Steps.</h2>
+            <div class="flex flex-col md:flex-row justify-center items-center">
+                
+                <div class="flex flex-col items-center w-full md:w-1/3 p-4">
+                    <div class="w-16 h-16 flex items-center justify-center bg-blue-600 text-white rounded-full text-2xl font-bold mb-4">1</div>
+                    <h3 class="text-xl font-semibold mb-2">Find</h3>
+                    <p class="text-gray-600">Use the Spin2Class app to *locate* the nearest available bike at a campus hub.</p>
+                </div>
+                
+                <div class="hidden md:block w-20 h-1 bg-gray-300 my-8 relative">
+                    <div class="absolute right-0 top-1/2 transform -translate-y-1/2 w-3 h-3 bg-gray-300 rotate-45"></div>
+                </div>
+
+                <div class="flex flex-col items-center w-full md:w-1/3 p-4">
+                    <div class="w-16 h-16 flex items-center justify-center bg-blue-600 text-white rounded-full text-2xl font-bold mb-4">2</div>
+                    <h3 class="text-xl font-semibold mb-2">Unlock</h3>
+                    <p class="text-gray-600">Scan the QR code on the bike to *instantly unlock* it. Your rental starts now!</p>
+                </div>
+
+                <div class="hidden md:block w-20 h-1 bg-gray-300 my-8 relative">
+                    <div class="absolute right-0 top-1/2 transform -translate-y-1/2 w-3 h-3 bg-gray-300 rotate-45"></div>
+                </div>
+
+                <div class="flex flex-col items-center w-full md:w-1/3 p-4">
+                    <div class="w-16 h-16 flex items-center justify-center bg-blue-600 text-white rounded-full text-2xl font-bold mb-4">3</div>
+                    <h3 class="text-xl font-semibold mb-2">Ride & Lock</h3>
+                    <p class="text-gray-600">*Return the bike* to any designated Spin2Class hub and lock it to end your trip.</p>
+                </div>
+            </div>
+            
+            <div class="mt-16">
+                <img src="https://via.placeholder.com/800x400/F3F4F6/0072FF?text=Spin2Class+App+Mockup+showing+Map" alt="Mobile app interface" class="mx-auto rounded-xl shadow-2xl border border-gray-100">
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-50 py-20" id="pricing">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-12">Apni Sawari, Apna Plan (Find Your Perfect Plan)</h2>
+            <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                
+                <div class="p-8 bg-white rounded-xl shadow-xl transition duration-300 border-4 border-white hover:border-gray-200">
+                    <h3 class="text-2xl font-bold text-gray-700">The Quick-Fix</h3>
+                    <p class="text-gray-500 mb-6">Occasional riders and errands.</p>
+                    <div class="text-4xl font-extrabold text-gray-900 mb-1">
+                        ₹29
+                    </div>
+                    <p class="text-sm text-gray-500 mb-6">per 30 minutes</p>
+                    <ul class="text-left text-gray-600 space-y-2 mb-8">
+                        <li>✅ Pay-as-you-go</li>
+                        <li>✅ Ideal for single, fast trips</li>
+                        <li>❌ Unlimited rides</li>
+                    </ul>
+                    <a href="#" class="block w-full py-3 border border-gray-300 text-gray-600 rounded-lg font-semibold hover:bg-gray-100 transition">Select Plan</a>
+                </div>
+
+                <div class="p-8 bg-white rounded-xl shadow-2xl transform scale-105 transition duration-300 border-4 border-blue-500">
+                    <p class="text-sm font-bold text-white bg-blue-600 rounded-full inline-block px-3 py-1 mb-3">RECOMMENDED</p>
+                    <h3 class="text-2xl font-bold text-blue-600">The Daily Rider</h3>
+                    <p class="text-gray-500 mb-6">Commuting to and from classes daily.</p>
+                    <div class="text-5xl font-extrabold logo-gradient mb-1">
+                        ₹349
+                    </div>
+                    <p class="text-sm text-gray-500 mb-6">/month</p>
+                    <ul class="text-left text-gray-600 space-y-2 mb-8">
+                        <li>✅ Unlimited 1-hour rides</li>
+                        <li>✅ Auto-renewed monthly</li>
+                        <li>✅ Free helmet included</li>
+                    </ul>
+                    <a href="#" class="block w-full py-3 text-white bg-blue-600 rounded-lg font-bold hover:bg-blue-700 transition shadow-lg">Start Monthly Subscription</a>
+                </div>
+
+                <div class="p-8 bg-white rounded-xl shadow-xl transition duration-300 border-4 border-white hover:border-gray-200">
+                    <h3 class="text-2xl font-bold text-gray-700">The Semester Saver</h3>
+                    <p class="text-gray-500 mb-6">Whole term of transportation freedom.</p>
+                    <div class="text-4xl font-extrabold text-gray-900 mb-1">
+                        ₹1,499
+                    </div>
+                    <p class="text-sm text-gray-500 mb-6">/semester (4 months)</p>
+                    <ul class="text-left text-gray-600 space-y-2 mb-8">
+                        <li>✅ Best value, upfront payment</li>
+                        <li>✅ Unlimited 1-hour rides</li>
+                        <li>✅ Free lights included</li>
+                    </ul>
+                    <a href="#" class="block w-full py-3 border border-gray-300 text-gray-600 rounded-lg font-semibold hover:bg-gray-100 transition">Select Plan</a>
+                </div>
+            </div>
+            <p class="mt-8 text-sm text-gray-500">
+                *Valid Student ID required for all sign-ups. All plans include free maintenance.
+            </p>
+        </div>
+    </section>
+
+    <section class="py-20" id="locations">
+        <div class="container mx-auto px-4 md:flex items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                <h2 class="text-4xl font-bold mb-4">Where Can You Find a Spin2Class Bike?</h2>
+                <p class="text-xl text-gray-600 mb-6">
+                    We currently have *15 hubs* across [University Name] campus, strategically placed for maximum convenience.
+                </p>
+                <p class="text-gray-700 mb-8">
+                    Hubs are located near the Library, Student Union, Residence Halls, and major academic buildings. Download the app to see the real-time availability at each one.
+                </p>
+                <a href="#" class="px-6 py-3 text-lg font-bold text-white bg-green-600 rounded-lg hover:bg-green-700 transition duration-300 shadow-lg">
+                    View All Hubs on Map
+                </a>
+            </div>
+            <div class="md:w-1/2">
+                <img src="https://via.placeholder.com/600x400/F0FFF4/10B981?text=Campus+Map+with+15+Hub+Markers" alt="Stylized map of campus showing bike hubs" class="rounded-xl shadow-2xl">
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8">
+            
+            <div>
+                <span class="text-3xl font-extrabold logo-gradient block mb-4">Spin2Class</span>
+                <p class="text-sm text-gray-400">Your campus mobility partner.</p>
+                <p class="text-sm text-gray-400 mt-4">Support: <a href="mailto:support@spin2class.edu" class="hover:text-blue-400">support@spin2class.edu</a></p>
+                <p class="text-sm text-gray-400">Hotline: 1-800-SPIN-2CL</p>
+            </div>
+
+            <div>
+                <h4 class="text-lg font-semibold mb-4">Resources</h4>
+                <ul class="space-y-2 text-gray-400 text-sm">
+                    <li><a href="#how-it-works" class="hover:text-blue-400">How It Works</a></li>
+                    <li><a href="#pricing" class="hover:text-blue-400">Pricing Plans</a></li>
+                    <li><a href="#" class="hover:text-blue-400">FAQ</a></li>
+                    <li><a href="#" class="hover:text-blue-400">Report a Problem</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-lg font-semibold mb-4">Legal</h4>
+                <ul class="space-y-2 text-gray-400 text-sm">
+                    <li><a href="#" class="hover:text-blue-400">Terms of Service</a></li>
+                    <li><a href="#" class="hover:text-blue-400">Privacy Policy</a></li>
+                    <li><a href="#" class="hover:text-blue-400">Student Verification</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-lg font-semibold mb-4">Follow Us</h4>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-400 hover:text-blue-400 text-2xl">📸</a> 
+                    <a href="#" class="text-gray-400 hover:text-blue-400 text-2xl">📘</a>
+                    <a href="#" class="text-gray-400 hover:text-blue-400 text-2xl">🐦</a>
+                </div>
+            </div>
+        </div>
+        <div class="mt-8 pt-6 border-t border-gray-700 text-center text-sm text-gray-500">
+            &copy; 2025 Spin2Class. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
