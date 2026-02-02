@@ -7,7 +7,7 @@ as cost, availability, and convenience.
 
 ## Technologies Used
 - HTML, CSS, JavaScript
-- 
+
 ## Features
 - Student bike rental and booking system
 - Simple and intuitive user interface
