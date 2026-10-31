@@ -28,3 +28,8 @@ as cost, availability, and convenience.
 - Admin dashboard for bike management
 - User authentication system
 
+##Authors 
+1. Omkar Panchal
+2. Ayush Pathade
+3. Yash Gosavi
+4. Kartik Kapse
